@@ -1,0 +1,57 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing:border-box;
+
+
+}
+
+@font-face {
+    font-family: digital;
+    src: url(/font/DS-DIGI.TTF);
+
+}
+.relojCompleto{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+    width: 35rem;
+    border-radius: 0.3rem;
+    background-image: url(/img/fondoReloj.jpg);
+    background-size: 40rem;
+
+}
+
+.reloj{
+    display: flex;
+    height: 7.5rem;
+    width: 18rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    background-color: rgb(22, 22, 91);
+    color: white;
+    margin-bottom: 1rem;
+    font-family: digital;
+    font-size: 5rem;
+}
+
+.botonesReloj button{
+
+    border: none;
+    height: 2rem;
+    width: 8rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-color: rgb(221, 122, 122);
+}
+
+button:active {
+    transform: scale(0.98);}
