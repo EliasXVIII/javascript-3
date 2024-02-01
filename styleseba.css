@@ -1,0 +1,17 @@
+img{
+    width: 1120px;
+    height: 630px;
+    margin: 0 auto;
+}
+
+.slider{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+} 
