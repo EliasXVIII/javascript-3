@@ -4,7 +4,7 @@ img{
     margin: 0 auto;
 }
 
-.slider{
+#slider{
     width: 80%;
     height: auto;
     display: flex;
