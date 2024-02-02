@@ -39,4 +39,3 @@ function play(){
     temporizador = setTimeout("reloj()", 1000);
 }
 
-
