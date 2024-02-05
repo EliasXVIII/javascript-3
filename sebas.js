@@ -5,7 +5,7 @@
 
 /* let segundos = 10;
 
-//Definiendo el tipo de ejercicio
+//Definiendo el tipo de actividad
 
 let aplauso = function(){
     segundos --
@@ -50,9 +50,10 @@ window.addEventListener('load', function(){
     // cambiar imagenes
 
         const CambiarImagenes= function(){
-            //slider.src="img/baronrojo_1.jpg";
-        
+                   
             slider.src=`img/${imagenes[indexImagenes]}`;
+
+    // ejecutando la condicional
 
             if(indexImagenes < 4){
                 indexImagenes++;
@@ -61,9 +62,14 @@ window.addEventListener('load', function(){
             else {indexImagenes =0};
         };
 
+    // Se imprime el evento
+
     CambiarImagenes();
 
-setInterval(CambiarImagenes, 3000);
+
+    // Aplicación de la función
+
+setInterval(CambiarImagenes, 2000);
 
 });
 
