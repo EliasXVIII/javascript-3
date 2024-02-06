@@ -1,5 +1,3 @@
-//probando
-
 temporizador = setTimeout("reloj()", 1000);
 
 function reloj(){
