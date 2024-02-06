@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expresiones Regulares</title>
+</head>
+<body>
+
+    
+    <script>
+        let texto = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, sequi nemo? Reprehenderit quos distinctio inventore expedita ea? Ad at quidem, quos debitis dolorem dignissimos, assumenda libero, natus explicabo id fugiat."
+
+        let expresion = new RegExp("lorem","g");
+        let expresion2 = /l/ig;
+
+        console.log(expresion(texto));
+        console.log(expresion2(texto));
+
+    </script>
+</body>
+</html>
